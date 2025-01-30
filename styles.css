@@ -7,27 +7,31 @@ body{
     background-color: hsl(330, 100%, 98%);
     display: flex;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .main-container{
     background-color: white;
+    border: 2px solid red;
+    width: 40%;
     height: auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 0px 30px;
 }
 
 .image{
     border-radius: 10px;
-    width: 40%;
-    height: 80px;
+    height: 200px;
 }
 .wrap{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+
+
+.Ingredients {
+    border-top: 2px solid green ;
 }
