@@ -39,9 +39,9 @@ body {
     margin: 20px;
 }
 
-.description{
+/* .description{
 
-}
+} */
 .wrap {
   display: flex;
   flex-direction: column;
@@ -69,6 +69,7 @@ h1{
 
 .pink-bold {
   font-weight: bold;
+  color: hsl(14, 45%, 36%);
 }
 
 .prep-time {
@@ -81,7 +82,9 @@ h1{
 
 .prep {
   font-weight: bold;
-  color: hsl(332, 51%, 32%)
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 ul li {
@@ -106,6 +109,8 @@ ol li{
 .nutrition p{
     margin-bottom: 10px;
     margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
     /* word-spacing: 50px; */
     /* border-bottom: 2px solid green ; */
 }
