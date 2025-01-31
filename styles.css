@@ -1,37 +1,71 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: hsl(330, 100%, 98%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+body {
+  background-color: hsl(330, 100%, 98%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: Outfit;
 }
 
-.main-container{
-    background-color: white;
-    border: 2px solid red;
-    width: 40%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 30px;
+.main-container {
+  background-color: white;
+  border: 2px solid red;
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px;
 }
 
-.image{
-    border-radius: 10px;
-    height: 200px;
+.image {
+  border-radius: 10px;
+  height: 200px;
 }
-.wrap{
-    display: flex;
-    flex-direction: column;
+.wrap {
+  display: flex;
+  flex-direction: column;
 }
-
 
 .Ingredients {
-    border-top: 2px solid green ;
+  /* border-top: 2px solid green ; */
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+h2,
+h1 {
+  font-family: Young Serif;
+  font-weight: lighter;
+}
+
+.dark-bold {
+  font-weight: bold;
+}
+
+.pink-bold {
+  font-weight: bold;
+}
+
+.prep-time {
+  background-color: pink;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.prep {
+  font-weight: bold;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ol li {
+  margin-bottom: 10px;
 }
