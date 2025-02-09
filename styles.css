@@ -72,6 +72,7 @@ h1{
 }
 
 .pink-bold {
+  margin-left: 100px;
   font-weight: bold;
   color: hsl(14, 45%, 36%);
 }
@@ -133,7 +134,7 @@ ol li::marker {
     margin-bottom: 10px;
     margin-top: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start
 }
 
 .nutrition{
@@ -144,6 +145,15 @@ ol li::marker {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 13px;
+}
+
+table{
+  width: 100%;
+}
+
+table, td {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  border-collapse: collapse;
 }
 
 @media screen and (max-width: 600px){
@@ -161,13 +171,17 @@ ol li::marker {
     /* margin-top: 40px; */
   }
 
+  .text-container{
+    padding: 20px;
+  }
+
   .image {
     border-radius: 0%;
     height: 100%;
     width: 100%;
   }
 
-.header{
+/* .header{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,5 +189,5 @@ ol li::marker {
   margin-top: 0%;
   margin-left: 0%;
   margin-right: 0%;
- }
+ } */
 }
