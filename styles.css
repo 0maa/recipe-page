@@ -165,7 +165,7 @@ table, td {
 @media screen and (max-width: 600px){
 
   body{
-    background-color: blanchedalmond;
+    background-color: hsl(330, 100%, 98%);
   }
 
   .main-container{
