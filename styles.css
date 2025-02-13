@@ -152,8 +152,14 @@ table{
 }
 
 table, td {
+  padding: 12px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.4);
   border-collapse: collapse;
+}
+
+.nutrient-value{
+  color:  hsl(14, 45%, 36%);
+  font-weight: 700;
 }
 
 @media screen and (max-width: 600px){
